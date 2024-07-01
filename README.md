@@ -26,10 +26,10 @@
 ## Homepage
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/65691d42-1f4f-4c3d-8394-1f5b42f87dd9)
 
-## Tutorial
+## Weather Forecast
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/aaa1fb59-e673-4872-8885-475037efe68c)
 
-## Weather Forecast
+## Tutorial
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/07c3df2a-f370-4901-b684-3cf5f941f8d1)
 
 ## Cart
