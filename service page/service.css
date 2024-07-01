@@ -1,0 +1,18 @@
+/* Add this to your CSS file or style block */
+.custom-input {
+    border: none;
+    /* Remove the default border */
+    border-bottom: 1px solid #000;
+    /* Add a bottom border with your preferred color */
+    background-color: transparent;
+    /* Make the background transparent */
+    transition: border-bottom-color 0.2s;
+    /* Add a smooth transition for the border color */
+}
+
+.custom-input:focus {
+    outline: none;
+    /* Remove the default focus outline (if needed) */
+    border-bottom-color: #007bff;
+    /* Change the bottom border color when focused */
+}

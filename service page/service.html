@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- //Tailwind css CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- //Daisy UI framework CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <title>Services</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="service.css">
+    <!-- //Custom colours for the services page -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        card_1: '#1d4c43',
+                        card_2: '#f6ffdd',
+                        swatch_1: '#e6e8e3',
+                        swatch_2: '#aeb2af',
+                        swatch_3: '#061712',
+                        swatch_4: '#e9fbb7',
+                        swatch_5: '#b4c8ad',
+                        swatch_6: '#435d3c',
+                        swatch_7: '#6c8a52',
+                        swatch_8: '#bceb54',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="navbar bg-base-100">
+        <div class="flex-none">
+            <button class="btn btn-square btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    class="inline-block w-5 h-5 stroke-current">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+        </div>
+        <div class="flex-1">
+            <a class="btn btn-ghost uppercase text-3xl text-swatch_8">FOSOL</a>
+        </div>
+
+        <div class="">
+            <div class="">
+                <input type="text" placeholder="Search" class="border-b border-white focus:outline-none px-2 py-1" />
+            </div>
+        </div>
+
+        <div class="flex-1 justify-end">
+            <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                    <div class="w-10 rounded-full">
+                        <img src="/img/farmer2.jpg" />
+                    </div>
+                </label>
+                <ul tabindex="0"
+                    class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                    <li>
+                        <a class="justify-between">
+                            Profile
+                            <span class="badge">New</span>
+                        </a>
+                    </li>
+                    <li><a>Settings</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
