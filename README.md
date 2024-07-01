@@ -38,3 +38,7 @@
 ## Admin
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/75d1b63e-ff01-40ca-8f8f-f94e26841d1c)
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/2ece201d-3401-401e-8801-cbe8d382687a)
+
+## Model
+![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/9990509b-4344-4442-bfda-5849c18651b4)
+
