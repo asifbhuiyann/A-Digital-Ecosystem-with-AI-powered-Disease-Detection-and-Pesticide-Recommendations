@@ -12,15 +12,15 @@
 * Run the Flask app using the below command `python3 app.py`
   
 ## Landing Page
+![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/f55573b8-cb73-429b-bcf7-6bce6c2221f3)
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/a87edb15-bcd7-4aec-9130-9090d92e8e83)
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/4ee38ea2-0c91-4812-8e08-1e3663f33f99)
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/ab2f010c-ade4-4f76-b4c8-86e9e7357bea)
-![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/f55573b8-cb73-429b-bcf7-6bce6c2221f3)
-
-## Login
-![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/bb52d895-0cbf-427d-8983-5bfed0883086)
 
 ## Sign Up
+![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/bb52d895-0cbf-427d-8983-5bfed0883086)
+
+## Login
 ![image](https://github.com/asifbhuiyann/A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations/assets/67231225/d9ea9e3d-2de5-4341-8ee9-aada0546b74b)
 
 ## Homepage
