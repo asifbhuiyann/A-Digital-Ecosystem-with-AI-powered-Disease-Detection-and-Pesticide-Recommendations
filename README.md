@@ -1,0 +1,1 @@
+# A-Digital-Ecosystem-with-AI-powered-Disease-Detection-and-Pesticide-Recommendations
