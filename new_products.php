@@ -3,27 +3,23 @@ include 'dbconnect.php';
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Check if file was uploaded without errors
+
     if (isset($_FILES["image"]) && $_FILES["image"]["error"] == 0) {
         $imgSrc = "images/" . basename($_FILES["image"]["name"]);
-        $uploadDir = "C:\\xampp\\htdocs\\Foshol\\new_prods\\"; // Update this with your upload directory
+        $uploadDir = "C:\\xampp\\htdocs\\Foshol\\new_prods\\"; 
         $uploadFile = $uploadDir . basename($_FILES["image"]["name"]);
 
-        // Check if the directory exists, if not, create it
         if (!file_exists($uploadDir)) {
             mkdir($uploadDir, 0777, true);
         }
 
-        // Move uploaded file to designated directory
         if (move_uploaded_file($_FILES["image"]["tmp_name"], $uploadFile)) {
-            // File uploaded successfully, now generate URL
+
             $url = "https://" . $_SERVER['HTTP_HOST'] . "/Foshol/new_prods/" . basename($_FILES["image"]["name"]); // Corrected URL generation
 
-            // Get other form data
             $itemName = $_POST['item_name'];
             $price = $_POST['price'];
 
-            // Insert data into database
             $sql = "INSERT INTO products (img_src, item_name, price) VALUES ('$url', '$itemName', '$price')";
             if ($conn->query($sql) === true) {
                 echo '<script>alert("Product Added Successfully");</script>';
